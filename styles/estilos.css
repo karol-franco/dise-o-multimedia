@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    text-align: center;
+}
+nav{
+    align-items: center;
+    display: inline-block;
+    width: 45%;
+}
+nav ul li{
+    display: inline-block; /*alinear horizontalmente*/
+    margin-right: 2em;
+    line-height: 4em;   /*alinear verticalmente*/
+    margin-top: 0em;
+}
+nav ul li a{
+    color: rgb(255, 255, 255); /*color de fuente*/
+    font-size: 1em;  /*tamaño de la fuente*/
+    text-decoration: none; /*decoracion de texto= ninguna*/
+}
+a:hover{
+    color: rgb(15, 134, 245) ;
+}
+.parte-uno{
+    padding-top: 1.3em;
+    background-color: rgb(41, 38, 38);
+    display: flex;
+    border-bottom: 7px rgb(15, 134, 245) solid ;
+}
+.titulo_principal{
+    margin-top: 0.5em;
+    align-items: center;
+    display: inline-block;
+    width: 50%;
+    color: white;
+}
+span{
+    color: rgb(15, 134, 245);
+}
+header{
+    background-image: url(../assets/img/cabecera.jpg);
+    height: 300px;
+    background-size: 140%;
+    background-position: 0px 50%;
+    padding-top: 7em;
+    color: white;
+    font-size: 2em;
+}
+.parrafo-encabezado{
+    font-size: 0.8em;
+}
+.parte-tres{
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 2em;
+    justify-content: space-between;
+}
+button{
+    background-color: orangered;
+    padding: 1em;
+    color: white;
+    border: none;
+}
+.campo{
+    margin-right: 90px;
+}
+.subscribete{
+    margin-left: 60px;
+}
+input{
+    height: 35px;
+}
+.logos{
+    width: 110px;
+}
+.contenedores{
+    vertical-align: top;
+}
+.parte-cuatro{
+    display: flex;
+    padding: 3em;
+}
+p{
+    font-size: 0.8em
+}
+.logos{
+    width: 30%;
+}
+footer{
+    padding: 2em;
+    background-color:rgb(15, 134, 245) ;
+    color: white;
+    font-size: 1.2em;
+}
+.parte1-nosotros{
+    display: flex;
+    padding: 70px;
+}
+.uno{
+    width: 70%;
+    text-align: left;
+    margin-right: 3em;
+
+}
+.dos{
+    width: 28%;
+    text-align: left;
+    padding:6px;
+    margin: 2px;
+}
+.color{
+    background-color: rgb(39, 37, 71);
+    color: white;
+    padding: 16px;
+    margin: 5px;
+}
+.img-nosotros{
+    width: 820px;
+}
+.cuadro{
+    padding: 10px;
+    background-color: rgb(39, 37, 71);
+    color: white;
+    margin-top: 6px;
+    margin-bottom: 8px ;
+}
+.secciones{
+    padding: 15px;
+    background-color: rgb(226, 221, 221);
+    border-radius: 4px;
+    margin-bottom: 4px;
+
+}
+.servicios{
+    width: 60%;
+    text-align: left;
+}
+
+.parte1-servicios{
+    display: flex;
+    padding: 25px;
+    justify-content: space-between;
+    padding: 10px 80px 10px 80px;
+}
+.caja-texto{
+    text-align: left;
+    margin-bottom: 5px;
+}
+.inputs{
+    width: 80%;
+}
+.contacto{
+    display: flex;
+    padding: 10px 80px 10px 80px;
+}
+.parte1-contacto{
+    width: 70%;
+    text-align: left;
+    font-size: 0.8em;
+}
+.Mensaje{
+    text-align: start;
+    width: 80%;
+    height: 100px;
+}
+.boton-contatco{
+    width: 80%;
+    background-color: orangered;
+    color: white;
+}
+.mapa{
+    width: 325px;
+    margin-top: 15px;
+}
